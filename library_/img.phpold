@@ -1,0 +1,15 @@
+<?php 
+
+header('Content-type: image/png');
+
+include "../library/barcodelib/src/BarcodeGenerator.php";
+include "../library/barcodelib/src/BarcodeGeneratorPNG.php";
+$generatorPNG = new Picqer\Barcode\BarcodeGeneratorPNG();
+
+$dlid = $_GET['dlid'];
+$dltypeid = $_GET['dltypeid'];
+
+$image = $generatorPNG->getBarcode($dlid, $generatorPNG::TYPE_CODE_128);
+echo $image;
+
+?>

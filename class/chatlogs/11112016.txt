@@ -1,0 +1,2 @@
+ <li class="left clearfix"><span class="chat-img pull-left"><img src="http://placehold.it/50/006D32/fff" alt="User Avatar" class="img-circle"></span><div class="chat-body clearfix"><div class="header"><strong class="primary-font">kjcneduasa</strong></div><p>HI </p></div></li>
+ <li class="left clearfix"><span class="chat-img pull-left"><img src="http://placehold.it/50/006D32/fff" alt="User Avatar" class="img-circle"></span><div class="chat-body clearfix"><div class="header"><strong class="primary-font">kjcneduasa</strong></div><p>HI </p></div></li>

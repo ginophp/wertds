@@ -1,0 +1,117 @@
+body {
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 12px;
+      line-height: 1.42857143;
+      color: #333;
+      background-color: #fff;
+      /*overflow: hidden;   */
+    }
+     
+   .panel {
+      margin-bottom: 3px;
+    }
+    .panel-heading {
+      padding: 3px 7px;
+      border-bottom: 1px solid transparent;
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+    }
+     
+    .panel-body {
+        padding: 1px;
+     }
+     
+     .btn-circle {
+            width: 18px;
+            height: 18px;
+            padding: 1px 0;
+     }
+
+     #btn-circle {
+            width: 30px;
+            height: 24px;
+            padding: 1px 0;
+     }
+     .alert{
+            padding: 7px;
+            margin-bottom: 3px;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            
+     }
+     .col-lg-1,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-md-1,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-sm-1,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-xs-1,
+    .col-xs-10,
+    .col-xs-11,
+    .col-xs-12,
+    .col-xs-2,
+    .col-xs-3,
+    .col-xs-4,
+    .col-xs-5,
+    .col-xs-6,
+    .col-xs-7,
+    .col-xs-8,
+    .col-xs-9 {
+                position: relative;
+                min-height: 1px;
+                padding-right: 2px;
+                padding-left: 2px
+    }
+    
+     
+#chat-wrap                      { border: 1px solid #eee; margin: 0 0 0 0; }
+#chat-area                      { height: 145px; overflow: auto; border: 1px solid #666; padding: 6px; background: white; }
+#chat-area span                 { color: white; background: #333; padding: 4px 8px; -moz-border-radius: 5px; -webkit-border-radius: 8px; margin: 0 5px 0 0; }
+#chat-area .admin                 { color: white; background: red; padding: 4px 8px; -moz-border-radius: 5px; -webkit-border-radius: 8px; margin: 0 5px 0 0; }
+#chat-area p                    { padding: 8px 0; border-bottom: 1px solid #ccc; }
+
+#online-wrap                      { border: 1px solid #eee; margin: 0 0 0 0; }
+#online-area                      { height: 145px; overflow: auto; border: 1px solid #666; padding: 6px; background: white; }
+#online-area span                 { color: white; background: #333; padding: 4px 8px; -moz-border-radius: 5px; -webkit-border-radius: 8px; margin: 0 5px 0 0; }
+#online-area .player                 { color: white; background: #333; padding: 4px 8px; -moz-border-radius: 5px; -webkit-border-radius: 8px; margin: 0 5px 0 0; }
+#online-area .admin                 { color: white; background: red; padding: 4px 8px; -moz-border-radius: 5px; -webkit-border-radius: 8px; margin: 0 5px 0 0; }
+#online-area p                    { padding: 8px 0; border-bottom: 1px solid #ccc; }
+
+#chat-area-admin                { height: 443px; overflow: auto; border: 1px solid #666; padding: 6px; background: white; }
+#chat-area-admin span           { color: white; background: #333; padding: 4px 8px; -moz-border-radius: 5px; -webkit-border-radius: 8px; margin: 0 5px 0 0; }
+#chat-area-admin .admin         { color: white; background: red; padding: 4px 8px; -moz-border-radius: 5px; -webkit-border-radius: 8px; margin: 0 5px 0 0; }
+#chat-area-admin p              { padding: 8px 0; border-bottom: 1px solid #ccc; }
+
+
+#name-area                      { position: absolute; top: 12px; right: 0; color: white; font: bold 12px "Lucida Grande", Sans-Serif; text-align: right; }   
+#name-area span                 { color: #fa9f00; }
